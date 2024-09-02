@@ -45,7 +45,7 @@ if (x > 10) {
 } else {
     console.log('x is not greater than 10.');
 }
-*/
+
 //2.3
 let grade = parseFloat(prompt('Enter the grade: '));
 
@@ -59,4 +59,33 @@ if (grade >= 70) {
     console.log('D');
 } else {
     console.log('F');
+}
+
+//2.4
+let age = parseInt(prompt('Enter your age: '));
+let hasLicense = prompt('Do you have a driver\'s license? (yes/no)');
+
+if (age >= 18) {
+    if (hasLicense === 'yes') {
+        console.log('You can drive.');
+    } else {
+        console.log('You are old enough to drive, but you don\'t have a license.');
+    }
+} else {
+    console.log('You are not old enough to drive.');
+}
+*/
+//2.5
+const electricityUsage = parseFloat(prompt("What is your monthly electricity usage in kwh? "));
+const milesDriven = parseFloat(prompt("How many miles do you drive per month? "));
+const carbonFootprint = electricityUsage * 0.9 + milesDriven * 0.4;
+
+console.log("Your estimated carbon footprint is: " + carbonFootprint.toFixed(2) + " metric tons per year.");
+
+if (carbonFootprint > 10) {
+    console.log("Your carbon footprint is VERY HIGH. YOU SHOULD CONSIDER USING PUBLIC TRANSPORT AND USING LESS ELECTRICITY.");
+} else if (carbonFootprint > 5) {
+    console.log("Your carbon footprint is mid. Try being more energy efficient.");
+} else {
+    console.log("Your carbon footprint is relatively low. Great.");
 }
