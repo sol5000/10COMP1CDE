@@ -74,7 +74,7 @@ if (age >= 18) {
 } else {
     console.log('You are not old enough to drive.');
 }
-*/
+
 //2.5
 const electricityUsage = parseFloat(prompt("What is your monthly electricity usage in kwh? "));
 const milesDriven = parseFloat(prompt("How many miles do you drive per month? "));
@@ -89,3 +89,10 @@ if (carbonFootprint > 10) {
 } else {
     console.log("Your carbon footprint is relatively low. Great.");
 }
+
+//3.1
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+*/
+//3.2
