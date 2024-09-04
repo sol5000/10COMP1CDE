@@ -94,5 +94,29 @@ if (carbonFootprint > 10) {
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
-*/
+
 //3.2
+let n = 0;
+while (n <= 10) {
+    console.log(n);
+    n++;
+}
+
+//3.3
+const prompt = require('prompt-sync')();
+
+
+let answer;
+do {
+    answer = prompt("Are you finished yet? ");
+} while (answer.toLowerCase() !== "yes");
+
+//3.4
+for (let i = 1; i <= 10; i++) {
+    for (let j = 1; j <= 10; j++) {
+        const result = i * j;
+        console.log(`${i} x ${j} = ${result}`);
+    }
+}
+*/
+//3.5
