@@ -63,13 +63,13 @@ if (grade >= 70) {
 
 //2.4
 let age = parseInt(prompt('Enter your age: '));
-let hasLicense = prompt('Do you have a driver\'s license? (yes/no)');
 
 if (age >= 18) {
-    if (hasLicense === 'yes') {
+    let hasLicense = prompt('Do you have a driver\'s license? (yes/no) ');
+    if (hasLicense === 'yes' || hasLicense === 'Yes') {
         console.log('You can drive.');
     } else {
-        console.log('You are old enough to drive, but you don\'t have a license.');
+        console.log('You are old enough to drive, you should get a license.');
     }
 } else {
     console.log('You are not old enough to drive.');
