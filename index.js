@@ -1,5 +1,5 @@
-const await = require('await')();
 try {
+    const await = require('await');
 	process.env.LESSONS = process.env.LESSONS ?? 1;
 
 	const headers = {
