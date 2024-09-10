@@ -1,16 +1,14 @@
-name: DO a Lesson
+name: Daily job
 
 on:
-  workflow_dispatch:
-    inputs:
-      lessons:
-        default: 1
-        description: 'Number of lessons to be completed'
-        required: false
-        type: number
+  schedule:
+    - cron: "0 8 * * *" 
+  push:
+      branches:
+        - 'main'  
 
 jobs:
-  study:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
