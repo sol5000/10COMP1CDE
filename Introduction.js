@@ -105,7 +105,6 @@ while (n <= 10) {
 //3.3
 const prompt = require('prompt-sync')();
 
-
 let answer;
 do {
     answer = prompt("Are you finished yet? ");
