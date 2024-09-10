@@ -1,3 +1,4 @@
+const await = require('await')();
 try {
 	process.env.LESSONS = process.env.LESSONS ?? 1;
 
