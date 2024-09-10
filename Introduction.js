@@ -30,7 +30,7 @@ console.log(`The remainder when ${num1} is divided by ${num2} is: ${modulus}`);
 //1.6
 let fahrenheit = parseFloat(prompt('Enter the temperature in Fahrenheit: '));
 let celsius = (fahrenheit - 32) * 5 / 9;
-console.log(`The temperature in Celsius is: ${celsius.toFixed(2)`);
+console.log(`The temperature in Celsius is: ${celsius.toFixed(2)}`);
 
 //2.1
 let x = parseFloat(prompt('Enter a number: '));
@@ -120,10 +120,13 @@ for (let i = 1; i <= 10; i++) {
 }
 */
 //3.5
-//tester.js
+
 
 //4.1
-//extra.js
+
 
 //4.2
-//test.js
+
+//5.1
+
+//5.2
