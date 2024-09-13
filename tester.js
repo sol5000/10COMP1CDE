@@ -32,7 +32,7 @@ while (day <= 30) {
         }
     }
     
-    day++;
+    day++; 
 }
 
 console.log("Simulation ended.");
